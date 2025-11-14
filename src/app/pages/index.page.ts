@@ -178,7 +178,7 @@ A seasoned Software Developer specializing in Full-Stack web development and Geo
             </div>
         </div>
         
-        <div class="bg-white rounded-2xl shadow-xl p-8 text-center border border-gray-100">
+        <!-- <div class="bg-white rounded-2xl shadow-xl p-8 text-center border border-gray-100">
           <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b pb-2 border-gray-200">
             Connect with Me
           </h2>
@@ -204,7 +204,7 @@ A seasoned Software Developer specializing in Full-Stack web development and Geo
             </a>
           </div>
           
-        </div>
+        </div> -->
 
       </div>
     </div>
