@@ -42,29 +42,35 @@ import { ProjectCardComponent } from '../components/project-card/project-card.co
 export default class PortfolioPage {
   readonly projects: Project[] = [
     {
-      id: 1,
-      title: 'E-Ticaret Platformu',
-      description: 'Microservice mimarisi kullanılarak geliştirilmiş, yüksek performanslı bir e-ticaret uygulaması.',
-      technologies: ['Angular', 'Spring Boot', 'PostgreSQL', 'Docker'],
-      githubUrl: 'https://github.com/kullanici/ecommerce-platform',
-      liveUrl: 'https://demo.ecommerce.com',
-      imageUrl: '/images/test.jpg',     //TODO !!
-    },
-    {
-      id: 2,
-      title: 'Blog CMS Sistemi',
-      description: 'Markdown tabanlı, hızlı ve SEO odaklı içerik yönetim sistemi (CMS).',
-      technologies: ['AnalogJS', 'Tailwind CSS', 'TypeScript', 'Node.js'],
-      githubUrl: 'https://github.com/kullanici/blog-cms',
-      imageUrl: '/images/test.jpg',     //TODO !!
-    },
-    {
-      id: 3,
-      title: 'Gerçek Zamanlı Sohbet Uygulaması',
-      description: 'WebSockets kullanarak geliştirilmiş düşük gecikmeli anlık mesajlaşma uygulaması.',
-      technologies: ['React', 'NestJS', 'Socket.IO', 'Redis'],
-      githubUrl: 'https://github.com/kullanici/realtime-chat',
-      imageUrl: '/images/test.jpg',     //TODO !!
-    },
+    "id": 1,
+    "title": "AirC2IS (NATO)",
+    "description": "A high-security, mission-critical Command and Control (C2) geospatial platform, focusing on the management and integration of complex military symbology and spatial data.",
+    "technologies": [
+      "Angular",
+      ".NET Framework",
+      "ArcGIS JS SDK",
+      "CIMSymbol",
+      "NVG Files"
+    ],
+    "githubUrl": '',
+    "liveUrl": undefined,
+    "imageUrl": "/images/stm_airc2is.jpg",
+  },
+    // {
+    //   id: 2,
+    //   title: 'Blog CMS Sistemi',
+    //   description: 'Markdown tabanlı, hızlı ve SEO odaklı içerik yönetim sistemi (CMS).',
+    //   technologies: ['AnalogJS', 'Tailwind CSS', 'TypeScript', 'Node.js'],
+    //   githubUrl: 'https://github.com/kullanici/blog-cms',
+    //   imageUrl: '/images/test.jpg',     //TODO !!
+    // },
+    // {
+    //   id: 3,
+    //   title: 'Gerçek Zamanlı Sohbet Uygulaması',
+    //   description: 'WebSockets kullanarak geliştirilmiş düşük gecikmeli anlık mesajlaşma uygulaması.',
+    //   technologies: ['React', 'NestJS', 'Socket.IO', 'Redis'],
+    //   githubUrl: 'https://github.com/kullanici/realtime-chat',
+    //   imageUrl: '/images/test.jpg',     //TODO !!
+    // },
   ];
 }
