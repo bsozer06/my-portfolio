@@ -24,7 +24,7 @@ interface PostAttributes {
             Blog Archive
           </h1>
           <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-            Technical insights, software architecture deep dives, and thoughts from a Computer Engineer.
+            Technical insights, software and GIS architecture deep dives, and thoughts from a Software Engineer.
           </p>
         </header>
 
