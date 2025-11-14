@@ -16,7 +16,7 @@ interface PostAttributes {
     imports: [AsyncPipe, MarkdownComponent, CommonModule, RouterLink, DatePipe],  
     template: `
        <div class="bg-gray-50 min-h-screen pt-16 pb-24">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
 
         <!-- Async content -->
         <ng-container *ngIf="post$ | async as post">
@@ -75,11 +75,6 @@ interface PostAttributes {
       </div>
     </div>
   `,
-//   styles: `
-//     .post__image {
-//       max-height: 40vh;
-//     }
-//   `,
 })
 export default class BlogPost {
   readonly post$ = injectContent<PostAttributes>('slug');

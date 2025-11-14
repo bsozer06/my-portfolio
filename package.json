@@ -49,6 +49,7 @@
     "@angular/build": "^20.0.0",
     "@angular/cli": "^20.0.0",
     "@angular/compiler-cli": "^20.0.0",
+    "@tailwindcss/typography": "^0.5.19",
     "jsdom": "^22.0.0",
     "typescript": "~5.8.0",
     "vite": "^7.0.0",
