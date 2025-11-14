@@ -82,3 +82,8 @@ The GIF below demonstrates the **real-time updating of geographic points on the 
 ## Conclusion
 
 This project allowed me to explore **distributed systems, real-time messaging, and dynamic frontend updates**. It demonstrates how modern web technologies can be combined to create **low-latency, interactive mapping applications**.
+
+---
+
+*Prepared by Burhan Sözer*  
+*Software Engineering & GIS Solutions*
