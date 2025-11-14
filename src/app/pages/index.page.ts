@@ -220,10 +220,11 @@ A seasoned Software Developer specializing in Full-Stack web development and Geo
 })
 export default class HomePage {
   readonly certifications = [
+    { name: 'Speexx English CEFR Level B2.2', source: 'Speexx', year: 2023, icon: 'language' },
     { name: 'Clean Coding', source: 'ATOS', year: 2023, icon: 'code' },
     { name: 'Object-Oriented Design', source: 'ATOS', year: 2023, icon: 'cubes' },
     { name: 'Angular', source: 'ATOS', year: 2022, icon: 'laptop-code' },
     { name: 'GIS, Mapping, and Spatial Analysis', source: 'Coursera', year: 2020, icon: 'map-marker-alt' },
-    { name: 'Speexx English CEFR Level B2.2', source: 'Speexx', year: 2023, icon: 'language' }
+    { name: 'Statistic with Python', source: 'Coursera', year: 2020, icon: 'code' },
   ];
 }
