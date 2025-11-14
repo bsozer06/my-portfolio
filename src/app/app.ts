@@ -1,10 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component, Inject } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
     standalone: true,
-  imports: [RouterLink, RouterOutlet],
+  imports: [CommonModule, RouterLink, RouterOutlet],
   template: `
     <div class="min-h-screen bg-gray-50 text-gray-900">
     <!-- NAVBAR -->
