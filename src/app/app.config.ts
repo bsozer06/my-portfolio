@@ -10,6 +10,8 @@ import {
 } from '@angular/core';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { provideFileRouter, requestContextInterceptor } from '@analogjs/router';
+import { provideContent, withMarkdownRenderer } from '@analogjs/content';
+import { withShikiHighlighter } from '@analogjs/content/shiki-highlighter';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -21,5 +23,6 @@ export const appConfig: ApplicationConfig = {
       withInterceptors([requestContextInterceptor])
     ),
     provideClientHydration(withEventReplay()),
+    provideContent(withMarkdownRenderer(), withShikiHighlighter()),
   ],
 };

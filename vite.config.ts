@@ -13,7 +13,14 @@ export default defineConfig(({ mode }) => ({
     mainFields: ['module'],
   },
   plugins: [
-    analog(),
+  analog({
+      content: {
+        highlighter: 'shiki',
+      },
+      prerender: {
+        routes: ['/blog', '/blog/2022-12-27-my-first-post'],
+      },
+    }),
     tailwindcss()
   ],
   test: {
