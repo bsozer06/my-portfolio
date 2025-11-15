@@ -2,7 +2,7 @@
 title: Development of Real-Time Mapping System
 slug: development_realtime_mapping
 description: A detailed overview of a real-time mapping system built with Angular, ASP.NET Core, RabbitMQ, and SignalR, showcasing low-latency live updates of geographic points.
-coverImage: /assets/realtime-tracker-gif.gif
+coverImage: /images/realtime-tracker-gif.gif
 ---
 
 ## Development of Real-Time Mapping System
@@ -42,7 +42,7 @@ The system is composed of the following layers:
 
 ## Package Diagram
 
-![Package Diagram](../../public/assets/realtime-package-diag.png)
+![Package Diagram](../../public/images/realtime-package-diag.png)
 
 ---
 
@@ -50,7 +50,7 @@ The system is composed of the following layers:
 
 Here is a simplified **activity flow** for live updates:
 
-![Activity Diagram](../../public/assets/realtime-activity-diag.png)
+![Activity Diagram](../../public/images/realtime-activity-diag.png)
 
 ---
 
@@ -58,7 +58,7 @@ Here is a simplified **activity flow** for live updates:
 
 The GIF below demonstrates the **real-time updating of geographic points on the map**, showing how our system continuously reflects changes without refreshing the view.
 
-![Short overview](../../public/assets/realtime-tracker-gif.gif)
+![Short overview](../../public/images/realtime-tracker-gif.gif)
 
 ---
 
