@@ -42,7 +42,7 @@ The system is composed of the following layers:
 
 ## Package Diagram
 
-![Package Diagram](../../public/images/realtime-package-diag.png)
+![Package Diagram](/images/realtime-package-diag.png)
 
 ---
 
@@ -50,7 +50,7 @@ The system is composed of the following layers:
 
 Here is a simplified **activity flow** for live updates:
 
-![Activity Diagram](../../public/images/realtime-activity-diag.png)
+![Activity Diagram](/images/realtime-activity-diag.png)
 
 ---
 
@@ -58,7 +58,7 @@ Here is a simplified **activity flow** for live updates:
 
 The GIF below demonstrates the **real-time updating of geographic points on the map**, showing how our system continuously reflects changes without refreshing the view.
 
-![Short overview](../../public/images/realtime-tracker-gif.gif)
+![Short overview](/images/realtime-tracker-gif.gif)
 
 ---
 
